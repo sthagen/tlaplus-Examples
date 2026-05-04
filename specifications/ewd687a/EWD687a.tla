@@ -182,7 +182,7 @@ VARIABLES
     (*                                                                     *)
     (* O ==                                                                *)
     (*    LET E == {upEdge[p] : p \in DOMAIN upEdge} \ {NotAnEdge} IN      *)
-    (*    [ edges |-> U, nodes |-> {e[1] : e \in E} \cup {e[2] : e \in E}] *)
+    (*    [ edges |-> E, nodes |-> {e[1] : e \in E} \cup {e[2] : e \in E}] *)
     (*                                                                     *)
     (* (We do not bother to change the direction of the edges in O to      *)
     (*  point towards the leader.)                                         *)
